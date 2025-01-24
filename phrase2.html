@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterpiece Colors - Carousel</title>
+    <link rel="stylesheet" href="prov.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
+</head>
+<body>
+    <header class="hero">
+        <img src="images/600x400.svg" alt="Hero Image" class="hero-img">
+        <div class="hero-content">
+            <h1>Add color to your masterpiece</h1>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="gallery-item">
+                
+                <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Placeholder Image 1">
+                <p>GLIDE</p>
+            </div>
+            <div class="gallery-item">
+               
+                <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Placeholder Image 2">
+                <p>MAGNETIC CORE BOBBIN</p>
+            </div>
+            <div class="gallery-item">
+                
+                <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Placeholder Image 3">
+                <p>PREMIUM STABILIZER</p>
+            </div>
+        </section>
+    <main>
+        <!-- Carousel Section -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Embroidery Stabilizer">
+                            <p>EMBROIDERY STABILIZER</p>
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Cubbie Grey Elephant">
+                            <p>CUBBIE GREY ELEPHANT</p>
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Kimberbell Cup of Cheer">
+                            <p>KIMBERBELL CUP OF CHEER</p>
+                        </li>
+                        <li class="glide__slide">
+                            <img src="images/dummy_600x400_ffffff_cccccc (1).png" alt="Kimberbell Two Scoops">
+                            <p>KIMBERBELL TWO SCOOPS</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Carousel Navigation -->
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">◀</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">▶</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Masterpiece Colors. All rights reserved.</p>
+    </footer>
+
+    <!-- GlideJS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/glide.min.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
